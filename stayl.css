@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.heading-top {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.order-form {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  max-width: 600px;
+  width: 100%;
+}
+
+.heading-side {
+  margin: 18px 0 30px 0;
+}
+
+.bread-type {
+
+}
+.size-box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.size-input{
+  display: none;
+}
+
+.size-input:checked ~ .size-span {
+  background-color: orangered;
+}
+
+.ingr-input{
+  display: none;
+}
+
+.ingr-input:checked ~ .ingrd-check {
+  background-color: orangered;
+}
+
+.ingr-input2{
+  display: none;
+}
+
+.ingr-input2:checked ~ .ingrd-check {
+  background-color: orangered;
+}
+
+.ingr-span{
+  max-width: 100px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ingrd-check{
+  width: 15px;
+  height: 14px;
+  border: 1px solid rgb(110, 108, 108);
+  border-radius: 2px;
+}
+
+.ingr-span2{
+  max-width: 100px;
+  font-size: 20px;
+  margin-left: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.size-span {
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgb(156, 152, 152);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ing-box {
+  max-width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: start;
+  justify-content: space-between;
+
+
+}
+.ing-box2 {
+  max-width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: start;
+  justify-content: space-between;
+
+}
+
+.riht-side {
+  max-width: 400px;
+  width: 100%;
+  border-left: 2px solid gray;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+}
+.bread-span {
+
+}
+.order-btn {
+  padding: 15px 25px;
+  background-color: red;
+  border: 1px solid tomato;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.color{
+  color: red;
+}

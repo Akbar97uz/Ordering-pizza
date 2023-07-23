@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pitsa buyurtma berish</title>
+  <link rel="stylesheet" href="./stayl.css">
+</head>
+<body>
+  <h1 class="heading-top">Pitsa buyurtma qilish</h1>
+
+  <form class="order-form" action="#">
+    <div class="left-side">
+      <h3 class="heading-side">Noni qanday bo'lsin?</h3>
+
+      <select name="bread" id="" class="bread-type">
+        <option selected disabled value="">Non turini tanlang</option>
+
+        <option value="Qalin">Qalin</option>
+        <option value="Yupqa">Yupqa</option>
+        <option value="Buxonkali">Buxonkali</option>
+
+      </select>
+
+      <h3 class="heading-side">Kattaligi</h3>
+      <div class="size-box">
+        <label for="size1">
+          <input id="size1" class="size-input" type="radio" name="size" value="25sm">
+          <span class="size-span">25sm</span>
+        </label>
+
+        <label for="size2">
+          <input id="size2" class="size-input" type="radio" name="size" value="30sm">
+          <span class="size-span">30sm</span>
+        </label>
+
+        <label for="size3">
+          <input id="size3" class="size-input" type="radio" name="size" value="35sm">
+          <span class="size-span">35sm</span>
+        </label>
+      </div>
+
+      <h3 class="heading-side">Ustiga nima solaylik?</h3>
+
+      <div class="ing-box">
+        <label for="pomidor" class="label">
+          <input id="pomidor" class="ingr-input" type="checkbox" name="ingrident" value="pomidor">
+          <div class="ingrd-check"></div> pomidor
+        </label>
+
+        <label for="zaytun" class="label">
+          <input id="zaytun" class="ingr-input" type="checkbox" name="ingrident" value="zaytun">
+          <div class="ingrd-check"></div>zaytun
+        </label>
+
+        <label for="qo'ziqorin" class="label">
+          <input id="qo'ziqorin" class="ingr-input" type="checkbox" name="ingrident" value="qo'ziqorin">
+          <div class="ingrd-check"></div> qo'ziqorin
+        </label>
+
+        <label for="kurka go'shti" class="label">
+          <input id="kurka go'shti" class="ingr-input" type="checkbox" name="ingrident" value="kurka go'shti">
+          <div class="ingrd-check"></div> kurka
+        </label>
+
+        <label for="bodring" class="label">
+          <input id="bodring" class="ingr-input" type="checkbox" name="ingrident" value="bodring">
+          <div class="ingrd-check"></div> bodring
+        </label>
+
+        <label for="qazi" class="label">
+          <input id="qazi" class="ingr-input" type="checkbox" name="ingrident" value="qazi">
+          <div class="ingrd-check"></div> qazi
+        </label>
+      </div>
+      
+      <h3 class="heading-side">Qo'shimchalar</h3>
+      
+      <div class="ing-box2">
+        <label for="achchiq sous" class="label">
+          <input id="achchiq sous" class="ingr-input2" type="checkbox" name="ingrident" value="achchiq sous">
+          <div class="ingrd-check"></div> sous
+        </label>
+
+        <label for="rayhon" class="label">
+          <input id="rayhon" class="ingr-input2" type="checkbox" name="ingrident" value="rayhon">
+          <div class="ingrd-check"></div> rayhon
+        </label>
+
+        <label for="sosiska" class="label">
+          <input id="sosiska" class="ingr-input2" type="checkbox" name="ingrident" value="sosiska">
+          <div class="ingrd-check"></div> sosiska
+        </label>
+      </div>
+    </div>
+
+    <div class="riht-side">
+     
+      <h2>Non: <span class="bread-span color"></span></h2>
+
+      <h2>Kattaligi: <span class="size-span-right color"></span></h2>
+
+      <h2>Ustida: <ul class="ingr-span color"></ul></h2>
+      
+      <h2>Qo'shimchalar: <ul class="ingr-span2 color"></ul></h2>
+
+      <button class="order-btn">Buyurtma berish</button>
+      <h3 class="status color"></h3>
+    </div>
+
+
+  </form>
+
+  
+
+
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
